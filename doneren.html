@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Hackathon</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Acties voor HoPe</h1> 
+             <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="acties.html">Acties</a></li>
+                    <li><a href="doneren.html">Doneren</a></li>
+                </ul>
+            </nav>   
+    </header>
+
+    <main>
+        <div class="overdoos">
+            <div class="doos-1">
+        <h2>Donatiepagina Acties voor HoPe</h2>
+        <h3>Informatie- en donatieformulier</h3>
+        <p>Wij kunnen het voorstellen dat u nu al een donatie wil doen aan Stichting HoPe Nederland. En misschien wilt u ons wel machtigen voor een doorlopende automatische incasso. Vul daarvoor de onderstaande velden in.
+        </p>
+       
+        <form name="contact" method="POST" data-netlify="true">
+            <label for="vnaam">Voornaam:</label>
+                <input type="text" id="vnaam" name="vnaam" placeholder="voornaam.."><br>
+            <label for="anaam">Achternaam:</label>
+                <input type="text" id="anaam" name="anaam" placeholder="achternaam.."><br>
+            <label for="adres">Adres:</label>
+                <input type="text" id="adres" name="adres" placeholder="adres.."><br>
+            <label for="pcode">Postcode:</label>
+                <input type="text" id="pcode" name="pcode" placeholder="postcode.."><br>
+            <label for="namen">Woonplaats:</label>
+                <input type="text" id="woonplaats" name="woonplaats" placeholder="woonplaats.."><br>
+            <label for="email">Emailadres:</label>
+                <input type="email" id="email" name="email" placeholder="email@.."><br>
+            <label for="telefoon">Telefoonnummer:</label>
+                <input type="tel" id="telefoon" name="telefoon" placeholder="telefoonnummer.."><br>
+            <label for="birthdate">Geboortedatum:</label>
+                <input type="date" id="birthdate" name="birthdate"><br>
+            <label for="gender">Geslacht:</label>
+                <select id="gender" name="gender">
+                    <option value="man">Man</option>
+                    <option value="vrouw">Vrouw</option>"
+                </select><br>
+            <label for="incasso">Type donatie:</label>
+                <select id="incasso" name="incasso">
+                    <option value="geenincasso">Ik wil niet doneren</option>
+                    <option value="eenmaligeincasso">Ik wil éénmalig doneren</option>
+                    <option value="doorlopendeincasso">Ik wil periodiek doneren</option>
+                </select><br>
+            <label for="bedrag">Donatiebedrag:</label>
+                <input type="number" id="bedrag" name="bedrag" placeholder="bedrag in €.."><br>
+            <label for="periodiek">Donatieperiode:</label>
+                <select id="periodiek" name="periodiek">
+                    <option value="eenmalig">Éénmalig</option>
+                    <option value="perweek">Per week</option>
+                    <option value="permaand">Per maand</option>
+                    <option value="perkwartaal">Per kwartaal</option>
+                    <option value="perjaar">Per jaar</option>
+                </select><br>
+            <label for="bank">IBAN-nummer:</label>
+                <input type="text" id="bank" name="bank" placeholder="IBAN-nummer.."><br>
+            <label for="opmerking">Opmerking:</label>
+                <textarea id="opmerking" name="opmerking" placeholder="type hier uw vraag of opmerking.."></textarea><br>
+            <label for="reset">Druk op resetten om het hele formulier leeg te maken:</label>
+            <input class="reset" type="reset"><br>
+            <label for="submit">Druk op verzenden om het formulier te verzenden:</label>
+            <input class="send" type="submit">   
+            </form>
+            </div>
+            </div>
+    </main>
+
+    <footer>
+        <div class="overdoos">
+            <div class="fblok">
+                <h4>Financiële zaken:</h4>
+                <p>IBAN: NL69RABO0300276087<br>
+                T.n.v.: Stichting HoPe Nederland<br>
+                RSIN-nummer: 814845873<br>
+                KvK: 17151364<br>
+                penningmeester@stichtinghope.org</p>
+            </div>
+            <div class="fblok">
+                <h4>Correspondentieadres:</h4>
+                <p>Stichting Hope Nederland<br>
+                Rijzertlaan 376<br>
+                5223 JV Den Bosch<br>
+                contact@stichtinghope.org</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
